@@ -1,9 +1,9 @@
 # Phân Tích Ảnh Số: Ngưỡng Hóa – Biên – Góc – Matching Đặc Trưng
 
-**Sinh viên thực hiện:** Lưu Võ Phương Mai
-**MSSV:** 2374802010299
-**Môn học:** Nhập môn Xử lý ảnh số
-**Giảng viên:** Đỗ Hữu Quân
+**Sinh viên thực hiện:** Lưu Võ Phương Mai <br>
+**MSSV:** 2374802010299 <br>
+**Môn học:** Nhập môn Xử lý ảnh số <br>
+**Giảng viên:** Đỗ Hữu Quân <br>
 
 
 ## Giới thiệu
@@ -96,18 +96,12 @@ Các kỹ thuật này đặt nền tảng cho các bài toán thị giác máy 
 #### Công thức:
 
 * Ma trận C cấu trúc cục bộ:
-
-  $$
-  C = \begin{bmatrix}
-  I_x^2 & I_x I_y \\
-  I_x I_y & I_y^2
-  \end{bmatrix}
-  $$
+C = [ [Ix^2, Ix·Iy],
+    [Ix·Iy, Iy^2] ]
+  
 * Đáp ứng góc Harris:
 
-  $$
-  R = \det(C) - \alpha (\text{trace}(C))^2
-  $$
+ R=det(C)−α(trace(C))^2
 
 #### Triển khai:
 
@@ -142,7 +136,7 @@ Các kỹ thuật này đặt nền tảng cho các bài toán thị giác máy 
 #### Cách làm:
 
 * Chuyển ảnh sang grayscale
-* Áp dụng `corner_harris()` với hệ số $k = 0.001$
+* Áp dụng `corner_harris()` với hệ số k = 0.001
 * Hiển thị ảnh kết quả phản hồi điểm góc
 
 #### Khác biệt:
