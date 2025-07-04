@@ -34,8 +34,6 @@ Các kỹ thuật này đặt nền tảng cho các bài toán thị giác máy 
 
 ## Chi tiết các kỹ thuật đã triển khai
 
----
-
 ### 1. Ngưỡng hóa ảnh bằng phương pháp Otsu + Labeling + Bounding Box
 
 **Mục tiêu:** phân đoạn ảnh nhị phân, phát hiện đối tượng
@@ -188,7 +186,8 @@ pip install opencv-python
 
 ### 2. Chạy file chính
 
-* Sử dụng Jupyter Notebook hoặc chạy Python script
+* Mở Jupyter Notebook trên VSCode/Colab
+* Chạy từng cell để xem kết quả của các thuật toán
 * Đảm bảo các file ảnh được đặt đúng thư mục
 
 ### 3. Tuỳ chỉnh
