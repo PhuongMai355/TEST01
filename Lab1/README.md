@@ -1,5 +1,5 @@
 # Nhập Môn Xử Lý Ảnh Số - Lab 5 
-## XÁC ĐỊNH ĐỐI TƯỢNG TRONG ẢNH Ngưỡng Hóa – Biên – Góc – Matching Đặc Trưng
+## XÁC ĐỊNH ĐỐI TƯỢNG TRONG ẢNH _ Ngưỡng Hóa – Biên – Góc – Matching Đặc Trưng
 
 **Sinh viên thực hiện:** Lưu Võ Phương Mai <br>
 **MSSV:** 2374802010299 <br>
@@ -168,12 +168,12 @@ Rất phù hợp để làm nền tảng cho bài toán nhận dạng vật th�
 ## Cấu trúc file
 
 ```
-├── bai_lab.ipynb / .py     # File code xử lý chính
-├── geometric.png           # Ảnh đơn hình học
-├── bird.png                # Ảnh thật 1
-├── exercise/dalat.jpg      # Ảnh thật 2
-├── label_output.png        # Kết quả labeling
-├── README.md               # Tài liệu hướng dẫn (file này)
+├── bai_lab.ipynb      
+├── geometric.png         
+├── bird.png               
+├── exercise/dalat.jpg     
+├── label_output.png       
+├── README.md   
 ```
 ---
 
