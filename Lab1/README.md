@@ -9,14 +9,13 @@
 
 ## Giới thiệu
 
-Bài lab này tập trung vào chuỗi thao tác cơ bản đến nâng cao trong xử lý ảnh số:
+Bài lab này tập trung vào chuỗi thao tác cơ bản đến nâng cao trong xử lý ảnh số.
 
-* Ngưỡng hóa ảnh và phân vùng đối tượng
-* Phát hiện biên bằng toán tử gradient
-* Phát hiện điểm góc (corner) bằng Harris
-* So khớp đặc trưng giữa hai ảnh thực tế
+* Chương trình gán nhãn cho phân vùng ảnh
+* Chương trình phân vùng ảnh theo Region
+* Chương trình thay đổi ảnh
 
-Các kỹ thuật này đặt nền tảng cho các bài toán thị giác máy tính cao cấp như: phân vùng ảnh, nhận diện vật thể, ghép ảnh (image registration), theo dõi chuyển động,...
+Các kỹ thuật này đặt nền tảng cho các bài toán thị giác máy tính như: phân vùng ảnh, nhận diện vật thể, ghép ảnh (image registration), theo dõi chuyển động,...
 
 ---
 
