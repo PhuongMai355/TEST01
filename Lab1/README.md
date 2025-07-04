@@ -1,4 +1,5 @@
-# Phân Tích Ảnh Số: Ngưỡng Hóa – Biên – Góc – Matching Đặc Trưng
+# Nhập Môn Xử Lý Ảnh Số - Lab 5 
+## XÁC ĐỊNH ĐỐI TƯỢNG TRONG ẢNH Ngưỡng Hóa – Biên – Góc – Matching Đặc Trưng
 
 **Sinh viên thực hiện:** Lưu Võ Phương Mai <br>
 **MSSV:** 2374802010299 <br>
@@ -176,9 +177,9 @@ Rất phù hợp để làm nền tảng cho bài toán nhận dạng vật th�
 ```
 ---
 
-## Hướng dẫn thực thi
+## Hướng dẫn
 
-### 1. Cài đặt thư viện cần thiết
+### 1. Cài đặt thư viện cần
 
 ```bash
 pip install opencv-python
